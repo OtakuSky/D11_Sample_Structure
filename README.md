@@ -66,6 +66,12 @@ This folder contains all files related to the user interface.
 **📁 rest**
 Use this folder for any requirements not covered by the above categories.
 
+
 **📁 out_of_sample_data**
 It currently has sample dummy data. It is in the exact format which we will be evaluating for the matches in the duration of 4th Dec till 14th Dec.
+
+
+**📁 docs**
+Put your documentation and working demo of the complete project here. 
+Working Video demo should encorporate, everything including setting up github repo on local and then hosting the UI and working of both Project and Model UI.
 
