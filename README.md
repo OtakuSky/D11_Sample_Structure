@@ -44,7 +44,7 @@ This repository is structured to streamline data processing, modeling, and UI in
 
 
 
-├── out_of_sample_data          <- Sample dummy data for evaluation matches (4th - 14th Dec)
+├── out_of_sample_data          <- Sample dummy data for evaluation matches, After submission is done we will put testing data here (4th - 14th Dec) in the same format as the sample data provided. This folder should be                                   well integrated with Model UI where it will automatically append the new data with already avalaible data from cricksheet.
 
 
 ├── rest                        <- For any miscellaneous requirements not covered by other folders 
