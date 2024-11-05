@@ -6,7 +6,7 @@ This repository is structured to streamline data processing, modeling, and UI in
 
 **main_app.py:** The main entry point for running the project. This script leverages various modules from the src directory to function.
 
-
+'''
 ├── README.md                   <- Project overview and usage instructions
 
 
@@ -42,7 +42,7 @@ This repository is structured to streamline data processing, modeling, and UI in
 
 
 ├── rest                        <- For any miscellaneous requirements not covered by other folders
-
+'''
 └── UI                          <- All files related to the user interface
 
 
