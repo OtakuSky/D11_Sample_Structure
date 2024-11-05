@@ -13,9 +13,9 @@ This folder is used for storing any intermediate data generated during processin
 **🧩 data_processing**
 Contains scripts that handle data-related operations, including downloading, processing, and feature engineering.
 
-**data_download.py:** Download all project data using this script. All raw data sources are processed here before further use.
+---- **data_download.py:** Download all project data using this script. All raw data sources are processed here before further use.
 
-**feature_engineering.py:** Handles all data manipulation and feature engineering for the project.
+---- **feature_engineering.py:** Handles all data manipulation and feature engineering for the project.
 (Add additional scripts here if needed for data processing.)
 
 **📊 final_data**
@@ -24,9 +24,9 @@ Stores the final datasets used for model training. All custom datasets generated
 **🔍 model**
 Holds all modeling-related scripts, including training and prediction modules.
 
-**train_model.py:** Script to train models.
+---- **train_model.py:** Script to train models.
 
-**predict_model.py:** Reads the trained model from train_model.py and performs predictions on the specified dataset.
+---- **predict_model.py:** Reads the trained model from train_model.py and performs predictions on the specified dataset.
 (Add additional model-related scripts if required.)
 
 **📦 model_artifacts**
