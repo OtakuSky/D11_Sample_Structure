@@ -36,8 +36,9 @@ This folder stores models trained by train_model.py. Only a single pre-trained m
 **📁 raw_data**
 Stores downloaded raw data, structured into subfolders:
 
-**cricksheet_data:** Contains raw data downloaded exclusively from Cricksheet.
-**Additional_data:** Stores raw data from other sources, if applicable.
+---- **cricksheet_data:** Contains raw data downloaded exclusively from Cricksheet.
+
+---- **Additional_data:** Stores raw data from other sources, if applicable.
 
 
 **📁 UI**
