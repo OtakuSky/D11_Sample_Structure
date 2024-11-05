@@ -1,11 +1,12 @@
-#Project Repository Structure
+##Project Repository Structure
 This repository is structured to streamline data processing, modeling, and UI integration. Below is an overview of each folder and its purpose.
 
 
 **🚀 Main Application**
 **main_app.py:** The main entry point for running the project. This script leverages various modules from the src directory to function.
-Folder Structure
 
+
+##Folder Structure
 
 **📁 data_dump**
 This folder is used for storing any intermediate data generated during processing.
