@@ -66,3 +66,6 @@ This folder contains all files related to the user interface.
 **📁 rest**
 Use this folder for any requirements not covered by the above categories.
 
+**📁 out_of_sample_data**
+It has sample data, in the exact format which we will be evaluating for the matches in the duration of 4th Dec till 14th Dec.
+
