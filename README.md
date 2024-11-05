@@ -3,6 +3,7 @@ This repository is structured to streamline data processing, modeling, and UI in
 
 
 **🚀 Main Application**
+
 **main_app.py:** The main entry point for running the project. This script leverages various modules from the src directory to function.
 
 
