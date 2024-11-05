@@ -11,6 +11,7 @@ This repository is structured to streamline data processing, modeling, and UI in
 ├── README.md                   <- Project overview and usage instructions
 
 
+
 ├── data                        <- Data folder with all stages of data
 │   ├── interim                 <- Intermediate data files generated during processing
 │   ├── processed               <- Finalized datasets ready for modeling
@@ -20,13 +21,16 @@ This repository is structured to streamline data processing, modeling, and UI in
 
 
 
+
 ├── data_processing             <- Scripts to process data
 │   ├── data_download.py        <- Download all project data using this script. All raw data sources are processed here before further use.
 │   └── feature_engineering.py  <- Handles all data manipulation and feature engineering for the project.
 
 
+
 ├── docs                        <- Documentation and project demo
 │   └── video_demo              <- Walk-through video, covering setup, UI, and functionality
+
 
 
 
@@ -35,16 +39,18 @@ This repository is structured to streamline data processing, modeling, and UI in
 │   └── predict_model.py        <- Prediction script with trained models
 
 
+
 ├── model_artifacts             <- Storage for trained models
 │                             (Includes pre-trained model for Product UI and models from Model UI)
+
 
 
 ├── out_of_sample_data          <- Sample dummy data for evaluation matches (4th - 14th Dec)
 
 
-├── rest                        <- For any miscellaneous requirements not covered by other folders
+├── rest                        <- For any miscellaneous requirements not covered by other folders 
 
-└── UI                          <- All files related to the user interface
+└── UI                          <- All files related to the user interface 
 
 ''''
 
