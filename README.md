@@ -1,4 +1,4 @@
-#**Project Repository Structure
+#Project Repository Structure
 This repository is structured to streamline data processing, modeling, and UI integration. Below is an overview of each folder and its purpose.**
 
 
