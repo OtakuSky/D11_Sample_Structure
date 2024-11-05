@@ -13,11 +13,8 @@ This repository is structured to streamline data processing, modeling, and UI in
 
 
 ├── data                        <- Data folder with all stages of data
-
 │   ├── interim                 <- Intermediate data files generated during processing
-
 │   ├── processed               <- Finalized datasets ready for modeling
-
 │   └── raw                     <- Original data as downloaded
 │       ├── cricksheet_data     <- Raw data from Cricksheet
 │       └── additional_data     <- Raw data from other sources, if any
