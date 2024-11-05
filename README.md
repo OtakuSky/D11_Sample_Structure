@@ -4,6 +4,7 @@
 **folder - data_dump :** use this to dump any intermediate data.
 
 **folder - data_processing :** Any scripts which will handle data needs to be here.
+
 ------ data_download.py : all the data which is being used for the project should be downloaded only using this script.
 ------ feature_engineering.py : any type of data manipulation/feature engineering should be done within this script. 
 ------ add any other script if needed related to data
