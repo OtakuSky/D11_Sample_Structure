@@ -43,7 +43,6 @@ This repository is structured to streamline data processing, modeling, and UI in
 
 ├── rest                        <- For any miscellaneous requirements not covered by other folders
 
-.
 └── UI                          <- All files related to the user interface
 
 
