@@ -8,43 +8,31 @@ This repository is structured to streamline data processing, modeling, and UI in
 
 
 ├── README.md                   <- Project overview and usage instructions
-
 ├── data                        <- Data folder with all stages of data
-
 │   ├── interim                 <- Intermediate data files generated during processing
-
 │   ├── processed               <- Finalized datasets ready for modeling
-
 │   └── raw                     <- Original data as downloaded
-
 │       ├── cricksheet_data     <- Raw data from Cricksheet
-
 │       └── additional_data     <- Raw data from other sources, if any
 
 
 
 ├── data_processing             <- Scripts to process data
-
 │   ├── data_download.py        <- Download all project data using this script. All raw data sources are processed here before further use.
-
 │   └── feature_engineering.py  <- Handles all data manipulation and feature engineering for the project.
 
 
 ├── docs                        <- Documentation and project demo
-
 │   └── video_demo              <- Walk-through video, covering setup, UI, and functionality
 
 
 
 ├── model                       <- Modeling scripts for training and prediction
-
 │   ├── train_model.py          <- Model training script
-
 │   └── predict_model.py        <- Prediction script with trained models
 
 
 ├── model_artifacts             <- Storage for trained models
-
 │                             (Includes pre-trained model for Product UI and models from Model UI)
 
 
