@@ -1,48 +1,46 @@
-**main_app.py :** This is the only file that we will run, it is supposed to use scripts from src to function.
+Project Repository Structure
+This repository is organized to streamline data processing, modeling, and UI integration for the project. Below is an overview of each folder and its purpose.
 
+File to Run
+main_app.py: The main entry point for running the project. This script leverages various modules from the src directory to function.
+Folder Structure
+📂 data_dump
+This folder is used for storing any intermediate data generated during processing.
 
-**folder - data_dump :** use this to dump any intermediate data.
+📂 data_processing
+Contains scripts that handle data-related operations, including downloading, processing, and feature engineering.
 
-**folder - data_processing :** Any scripts which will handle data related operations needs to be here.
+data_download.py: Download all project data using this script. All raw data sources are processed here before further use.
 
------- data_download.py : all the data which is being used for the project should be downloaded only using this script.
+feature_engineering.py: Handles all data manipulation and feature engineering for the project.
 
------- feature_engineering.py : any type of data manipulation/feature engineering should be done within this script. 
+(Feel free to add additional scripts here if needed for data processing)
 
------- add any other script if needed related to data
+📂 final_data
+Stores the final datasets to be used for model training. All custom datasets generated through the Model UI are stored here.
 
+📂 model
+Holds all modeling-related scripts, including training and prediction modules.
 
-**folder - final_data :** use this as data store for your ultimate data which will be used in model for training. All the custom datasets generated through Model UI would also go here.
+train_model.py: Script to train models.
 
+predict_model.py: Reads the trained model from train_model.py and performs predictions on the specified dataset.
 
-**folder - model :** modeling scripts here
+(Add additional model-related scripts if required)
 
------- train_model.py : file used to train model
+📂 model_artifacts
+This folder stores models trained by train_model.py. Only a single pre-trained model (used by Product UI) will be retained here. Models generated through the Model UI by the evaluator will also be stored here.
 
------- predict_model.py : should read the model trained by train_model.py and predict on required duration
+📂 raw_data
+Stores downloaded raw data, structured into subfolders:
 
------- add any other script if needed related to model
+cricksheet_data: Contains raw data downloaded exclusively from Cricksheet.
 
+Additional_data: Stores raw data from other sources, if applicable.
 
-**folder - model_artifacts :** Use this to store models using train_model.py. It will have only one pretrained model which will be used in Product UI. Rest of the models would be generated through Model UI by the evaluator.
+📂 UI
+This folder contains all files related to the user interface.
 
-
-**folder - raw_data :** Output of data_download.py
-
------- folder cricksheet_data : it is downloaded raw data from cricksheet only 
-
------- folder Additional_data : it is downloaded raw data from other sources if any
-
-
-**folder - UI:** Files related to UI would go here
-
-
-**folder - rest:** Use this if you have any other requirements besides mentioned above
-
-
-
-
-
-
-
+📂 rest
+Use this folder for any requirements not covered by the above categories.
 
