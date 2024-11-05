@@ -66,7 +66,3 @@ This folder contains all files related to the user interface.
 **📁 rest**
 Use this folder for any requirements not covered by the above categories.
 
-🔧 How Will We Start
-Run main_app.py to initiate the project.
-Use data_download.py and feature_engineering.py to fetch and process data before training the model.
-Run train_model.py and predict_model.py in the model folder to train and deploy predictions.
